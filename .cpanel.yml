@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/idxara82/platinum.idxara.com
+    - export DEPLOYPATH=/home/iaagro/public_html/inventory
     - /bin/cp -r * $DEPLOYPATH #copy all from root
     #    - /bin/cp -r ./public/* $DEPLOYPATH/public_html/invoice
